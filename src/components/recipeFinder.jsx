@@ -13,7 +13,7 @@ export default function RecipeFinder() {
                 <div className="flex items-center justify-center">
                     <form>
                         <input 
-                            className="text-black placeholder:text-black py-3 w-[16rem] px-3 mr-2 rounded outline-none sm:w-[22rem] sm:mr-4 md:w-[28rem] md:mr-4 lg:w-[35rem] lg:mr-4"
+                            className="bg-white text-black placeholder:text-black py-3 w-[16rem] px-3 mr-2 rounded outline-none sm:w-[22rem] sm:mr-4 md:w-[28rem] md:mr-4 lg:w-[35rem] lg:mr-4"
                             type="text" 
                             placeholder="Search for a recipe... (e.g., Pasta, Vegan)"
                             id="recipe-text"
